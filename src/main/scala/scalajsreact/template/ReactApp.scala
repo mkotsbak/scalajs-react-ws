@@ -5,14 +5,14 @@ import org.scalajs.dom
 
 import scala.scalajs.js.JSApp
 import scala.scalajs.js.annotation.JSExport
-import scalajsreact.template.pages.Task3
+import scalajsreact.template.pages.Task4
 
 @JSExport
 object ReactApp extends JSApp {
 
   @JSExport
   override def main(): Unit = {
-    ReactDOM.render(Task3(), dom.document.getElementById("my-app"))
+    ReactDOM.render(Task4(), dom.document.getElementById("my-app"))
   }
 }
 
