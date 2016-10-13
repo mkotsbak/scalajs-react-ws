@@ -1,4 +1,6 @@
-scalajs-react-template
+scalajs-react-tasks template
 ======================
 
-Basic skeleton app for scalajs-react and scalacss
+Run with:
+sbt fastOptJS
+chromium-browser index.html

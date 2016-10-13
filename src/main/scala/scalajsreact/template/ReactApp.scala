@@ -5,17 +5,14 @@ import org.scalajs.dom
 
 import scala.scalajs.js.JSApp
 import scala.scalajs.js.annotation.JSExport
-import scalajsreact.template.css.AppCSS
-import scalajsreact.template.routes.AppRouter
+import scalajsreact.template.pages.Task1
 
 @JSExport
 object ReactApp extends JSApp {
 
   @JSExport
   override def main(): Unit = {
-    AppCSS.load
-    AppRouter.router().render(dom.document.body)
+    ReactDOM.render(Task1(), dom.document.getElementById("my-app"))
   }
-
 }
 
